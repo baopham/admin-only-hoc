@@ -1,8 +1,8 @@
 import React, {useCallback} from 'react';
 import Viewer from './Viewer';
-import './disable-all.css';
+import './admin-only.css';
 
-export default function disableAll(WrappedComponent, hiddenInstead = false) {
+export default function adminOnly(WrappedComponent, hiddenInstead = false) {
   return WrapperComponent;
 
   function WrapperComponent(props) {

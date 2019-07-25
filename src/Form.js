@@ -1,5 +1,5 @@
 import React from 'react';
-import disableAll from './disable-all';
+import adminOnly from './admin-only';
 
 function Form(props) {
   return (
@@ -11,4 +11,4 @@ function Form(props) {
   );
 }
 
-export default disableAll(Form);
+export default adminOnly(Form);
